@@ -4,6 +4,7 @@ This project analyses tweets posted by 113 destination marketing organisations (
 
 <h1> Scripts </h1>
 0_dmo_tweet_collection.ipynb - collect tweets separated into tweets and interactions (quotes and replies). <br>
+.....It loads DMOs twitter handles from dmo_twitter.csv
 1_FYR_dmo_data_cleaning_preparation.R - clean and prepare the data. It's for your reference (FYR) only because the datasets were not available because of Twitter's copyright <br>
 2_dmo_visualise_usage_pattern.R - analyse and visualise DMOs' usage patterns. <br>
 .....It loads dmo_cleaned.feather and reply_cleaned.feather <br>
